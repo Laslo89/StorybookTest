@@ -1,0 +1,58 @@
+// https://confluence.paesslergmbh.de/display/MARKETING/Corporate+Design
+$color-yellow: #ffcc00;
+$color-warning: #f2c007; // GUI warning only
+$color-orange: #f59c00;
+$color-ocher: #d09b53;
+$color-flesh: #e77579; // GUI erros only
+$color-fire: #e30613; // GUI errors only
+$color-pink: #ed6fa7;
+$color-red: #ed0f69;
+$color-lightblue: #b0d0ef;
+$color-greyblue: #829fc9;
+$color-cyan: #00aeef;
+$color-darkblue: #0b2558;
+$color-blackblue: #050f34;
+$color-turquoise: #5bc4be;
+$color-green: #b4cb37;
+$color-olive: #7a7540;
+$color-sand: #d5cfa2;
+$color-brown: #b2986a;
+$color-grey10: #e6e7e8;
+$color-grey30: #bcbec0;
+$color-grey50: #939598;
+$color-grey70: #6d6e71;
+$color-grey80: #58595b;
+
+/* Sensor status colors */
+$color-up: #b8c419; // adjusted color for better readability
+$color-down: #e30613;
+$color-partdown: linear-gradient(
+  135deg,
+  #{$color-up} 0%,
+  #{$color-up} 50%,
+  #{$color-down 50%},
+  #{$color-down} 100%
+);
+$color-downack: #e67278;
+$color-warning: #f5c500; // adjusted color for better readability
+$color-unusual: #f59c00; // adjusted color for better readability
+$color-paused: #477ec0;
+$color-unknown: #878787;
+// Primary colors
+$primarydarkblue: $color-blackblue; // preventing double-definition
+$primarygreen: $color-up;
+$primaryorange: $color-unusual;
+$primaryred: $color-red;
+$primarylightgrey: $color-grey10;
+$primarycyan: $color-cyan;
+
+/* Graph Colors */
+$color-graphs1: #e30613;
+
+$color-graphs2: #0b2558;
+$color-graphs3: #399d98;
+$color-graphs4: #ea5799;
+$color-graphs5: #7a7540;
+$color-graphs6: #c48936;
+$color-graphs7: #00855a;
+$color-graphs8: #8b559e;
